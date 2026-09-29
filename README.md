@@ -34,25 +34,25 @@ The analysis seeks to answer the following questions:
 
 
 
-1. Which branch generates the highest total sales?
+- Which branch generates the highest total sales?
 
-2. Which branch generates the highest gross income?
+- Which branch generates the highest gross income?
 
-3-. How does sales performance change across the three months?
+- How does sales performance change across the three months?
 
-4-. Which product lines generate the highest sales and quantity sold?
+- Which product lines generate the highest sales and quantity sold?
 
-5-. Do Member customers generate more sales than Normal customers?
+- Do Member customers generate more sales than Normal customers?
 
 *  How does purchasing behaviour differ by gender?
 
-7. Which payment method is most commonly used overall and across branches?
+- Which payment method is most commonly used overall and across branches?
 
-8. How do customer ratings compare across the branches?
+- How do customer ratings compare across the branches?
 
-9. What are the busiest shopping hours overall, and do peak hours differ by branch?
+- What are the busiest shopping hours overall, and do peak hours differ by branch?
 
-10. Is there a relationship between customer ratings and sales or gross income?
+- Is there a relationship between customer ratings and sales or gross income?
 
 ## Dataset
 
@@ -198,8 +198,6 @@ Future analysis would benefit from:
 
 Supermarket Sales Analysis/
 
-│
-
 ├── Supermarket\_Analysis.ipynb
 
 ├── Abuja\_Branch.csv
@@ -210,33 +208,30 @@ Supermarket Sales Analysis/
 
 ├── Plots/
 
-│   ├── Average Customer Rating by City.png
+  ├── Average Customer Rating by City.png
 
-│   ├── Customer Rating vs Total Sales.png
+  ├── Customer Rating vs Total Sales.png
 
-│   ├── Gross Income by City.png
+  ├── Gross Income by City.png
 
-│   ├── Monthly Sales Trend.png
+  ├── Monthly Sales Trend.png
 
-│   ├── Payment Methods by City.png
+   ├── Payment Methods by City.png
 
-│   ├── Total Sales by City.png
+   ├── Total Sales by City.png
 
-│   ├── Total Sales by Customer Type and Gender.png
+   ├── Total Sales by Customer Type and Gender.png
 
-│   ├── Total Sales by Product Line.png
+   ├── Total Sales by Product Line.png
 
-│   └── Transactions by Hour.png
-
-│
+   └── Transactions by Hour.png
 
 └── README.md
 
+
+
+
 ## Limitations
-
-
-
-\- The dataset covers only three months, limiting the analysis of longer-term and seasonal trends.
-
-\- There is no unique customer identifier, so individual customer retention and repeat purchases cannot be determined.
+- The dataset covers only three months, which limits the ability to identify longer-term trends or seasonal patterns.
+- There is no unique customer identifier, so individual customer retention and repeat purchases cannot be determined.
 
