@@ -1,8 +1,8 @@
-\# Aries Supermarket Sales Analysis
+## Aries Supermarket Sales Analysis
 
 
 
-\## Project Overview
+## Project Overview
 
 
 
@@ -14,7 +14,7 @@ The analysis explores sales performance, product performance, customer behaviour
 
 
 
-\## Business Problem
+## Business Problem
 
 
 
@@ -26,7 +26,7 @@ This analysis uses transaction data to identify these patterns and provide actio
 
 
 
-\## Business Questions
+## Business Questions
 
 
 
@@ -34,9 +34,9 @@ The analysis seeks to answer the following questions:
 
 
 
-1\. Which branch generates the highest total sales?
+1. Which branch generates the highest total sales?
 
-2\. Which branch generates the highest gross income?
+2. Which branch generates the highest gross income?
 
 3\. How does sales performance change across the three months?
 
