@@ -129,11 +129,11 @@ The analysis followed a structured approach:
 
 
 
-- Port Harcourt recorded the highest total sales at approximately ₦39.8 million.
+- Port Harcourt recorded the highest total sales at approximately 39.8 million naira.
 
-- January recorded the highest monthly sales at approximately ₦41.9 million, while February recorded the lowest at approximately ₦35.0 million.
+- January recorded the highest monthly sales at approximately 41.9 million naira, while February recorded the lowest at approximately 35 million naira.
 
-- Food and beverages was the highest-selling product line at approximately ₦20.2 million.
+- Food and beverages was the highest-selling product line at approximately 20.2 million naira.
 
 - Member customers generated slightly higher total sales than Normal customers.
 
