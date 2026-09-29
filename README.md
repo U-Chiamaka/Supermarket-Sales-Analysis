@@ -112,6 +112,18 @@ The dataset contains supermarket transaction records covering three branches: La
 - Git \& GitHub
 
 
+## Analysis Approach
+
+The analysis followed a structured approach:
+
+1. *Business Understanding* — Defined the business problem, objectives and key questions.
+2. *Data Preparation* — Loaded, inspected and cleaned the branch datasets and created relevant date and time features.
+3. *Exploratory Analysis* — Examined branch performance, sales trends, product lines, customer segments, payment methods, ratings and transaction activity.
+4. *Advanced Analysis* — Investigated customer segments, product quantity versus sales, weekday versus weekend performance, peak hours by branch and relationships between key variables.
+5. *Data Visualization* — Developed business-focused visualizations to communicate key patterns and findings.
+6. *Business Insights & Recommendations* — Translated the findings into actionable recommendations and identified additional data that could support future analysis.
+
+
 
 ## Key Findings
 
@@ -190,4 +202,12 @@ Future analysis would benefit from:
 ## Limitations
 - The dataset covers only three months, which limits the ability to identify longer-term trends or seasonal patterns.
 - There is no unique customer identifier, so individual customer retention and repeat purchases cannot be determined.
+
+## Conclusion
+
+This analysis provided an overview of sales performance, customer behaviour and purchasing patterns across Aries branches in Lagos, Abuja and Port Harcourt.
+
+The findings highlight differences in branch sales, product performance, customer segments, payment preferences and transaction activity. These insights provide a basis for improving product strategy, customer engagement and branch-level decision-making.
+
+The analysis also highlights the value of collecting additional customer, product, promotion and inventory data to support deeper analysis and more informed business decisions in the future.
 
