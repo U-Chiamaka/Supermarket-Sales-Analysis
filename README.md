@@ -38,23 +38,23 @@ The analysis seeks to answer the following questions:
 
 2. Which branch generates the highest gross income?
 
-3\. How does sales performance change across the three months?
+3-. How does sales performance change across the three months?
 
-4\. Which product lines generate the highest sales and quantity sold?
+4-. Which product lines generate the highest sales and quantity sold?
 
-5\. Do Member customers generate more sales than Normal customers?
+5-. Do Member customers generate more sales than Normal customers?
 
-6\. How does purchasing behaviour differ by gender?
+*  How does purchasing behaviour differ by gender?
 
-7\. Which payment method is most commonly used overall and across branches?
+7. Which payment method is most commonly used overall and across branches?
 
-8\. How do customer ratings compare across the branches?
+8. How do customer ratings compare across the branches?
 
-9\. What are the busiest shopping hours overall, and do peak hours differ by branch?
+9. What are the busiest shopping hours overall, and do peak hours differ by branch?
 
-10\. Is there a relationship between customer ratings and sales or gross income?
+10. Is there a relationship between customer ratings and sales or gross income?
 
-\## Dataset
+## Dataset
 
 
 
@@ -62,99 +62,95 @@ The dataset contains 1,000 supermarket transactions recorded between January and
 
 
 
-\- Lagos
+- Lagos
 
-\- Abuja
+- Abuja
 
-\- Port Harcourt
+- Port Harcourt
 
-The dataset contains the following columns:
-
-
-
-\- Invoice ID
-
-\- Branch
-
-\- City
-
-\- Customer type
-
-\- Gender
-
-\- Product line
-
-\- Unit price
-
-\- Quantity
-
-\- Tax 5%
-
-\- Total
-
-\- Date
-
-\- Time
-
-\- Payment
-
-\- COGS
-
-\- Gross margin percentage
-
-\- Gross income
-
-\- Rating
+Key fields include:
 
 
 
-Key fields include branch, city, customer type, gender, product line, unit price, quantity, total sales, date, time, payment method, COGS, gross income and customer rating.
+- Invoice ID
+
+- Branch
+
+- City
+
+- Customer type
+
+- Gender
+
+- Product line
+
+- Unit price
+
+- Quantity
+
+- Tax 5%
+
+- Total
+
+- Date
+
+- Time
+
+- Payment
+
+- COGS
+
+- Gross margin percentage
+
+- Gross income
+
+- Rating
 
 
 
-\## Tools and Technologies
+## Tools and Technologies
 
 
 
-\- Python
+- Python
 
-\- Pandas
+- Pandas
 
-\- NumPy
+- NumPy
 
-\- Matplotlib
+- Matplotlib
 
-\- Seaborn
+- Seaborn
 
-\- Jupyter Notebook
+- Jupyter Notebook
 
-\- Git \& GitHub
-
-
-
-\## Key Findings
+- Git \& GitHub
 
 
 
-\- Port Harcourt recorded the highest total sales at approximately ₦39.8 million.
-
-\- January recorded the highest monthly sales at approximately ₦41.9 million, while February recorded the lowest at approximately ₦35.0 million.
-
-\- Food and beverages was the highest-selling product line at approximately ₦20.2 million.
-
-\- Member customers generated slightly higher total sales than Normal customers.
-
-\- Payment preferences differed across branches. Epay was most frequently used in Abuja and Lagos, while Cash was most frequently used in Port Harcourt.
-
-\- Customer ratings were relatively similar across the three branches.
-
-\- 7 PM recorded the highest number of transactions overall, with 113 transactions.
-
-\- Quantity sold had a strong positive relationship with total sales, with a correlation of approximately 0.71.
+## Key Findings
 
 
 
-\## Business Recommendations
+- Port Harcourt recorded the highest total sales at approximately ₦39.8 million.
+
+- January recorded the highest monthly sales at approximately ₦41.9 million, while February recorded the lowest at approximately ₦35.0 million.
+
+- Food and beverages was the highest-selling product line at approximately ₦20.2 million.
+
+- Member customers generated slightly higher total sales than Normal customers.
+
+- Payment preferences differed across branches. Epay was most frequently used in Abuja and Lagos, while Cash was most frequently used in Port Harcourt.
+
+- Customer ratings were relatively similar across the three branches.
+
+- 7 PM recorded the highest number of transactions overall, with 113 transactions.
+
+- Quantity sold had a strong positive relationship with total sales, with a correlation of approximately 0.71.
+
+
+
+## Business Recommendations
 
 
 
@@ -162,19 +158,19 @@ Based on the findings, Aries should:
 
 
 
-1\. Strengthen sales strategies in Abuja and Lagos by reviewing branch-specific customer and product purchasing patterns.
+1. Strengthen sales strategies in Abuja and Lagos by reviewing branch-specific customer and product purchasing patterns.
 
-2\. Maintain strong availability of Food and Beverages products and consider targeted promotions or product bundles.
+2. Maintain strong availability of Food and Beverages products and consider targeted promotions or product bundles.
 
-3\. Review the performance of the Health and Beauty product line and evaluate its product assortment, pricing and promotional strategies.
+3. Review the performance of the Health and Beauty product line and evaluate its product assortment, pricing and promotional strategies.
 
-4\. Strengthen Member customer engagement through targeted promotions and loyalty incentives.
+4. Strengthen Member customer engagement through targeted promotions and loyalty incentives.
 
-5\. Maintain reliable and convenient payment options based on payment preferences across each branch.
+5. Maintain reliable and convenient payment options based on payment preferences across each branch.
 
 
 
-\## Additional Data to Collect
+## Additional Data to Collect
 
 
 
@@ -182,19 +178,19 @@ Future analysis would benefit from:
 
 
 
-\- A unique customer ID
+- A unique customer ID
 
-\- Product-level cost and profit margin data
+- Product-level cost and profit margin data
 
-\- Promotion and discount data
+- Promotion and discount data
 
-\- Customer feedback or comments
+- Customer feedback or comments
 
-\- Inventory and stock availability data
+- Inventory and stock availability data
 
 
 
-\## Project Structure
+## Project Structure
 
 
 
@@ -236,7 +232,7 @@ Supermarket Sales Analysis/
 
 └── README.md
 
-\## Limitations
+## Limitations
 
 
 
