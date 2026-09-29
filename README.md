@@ -54,57 +54,42 @@ The analysis seeks to answer the following questions:
 
 - Is there a relationship between customer ratings and sales or gross income?
 
-## Dataset
+## Dataset Description
+
+The dataset contains supermarket transaction records covering three branches: Lagos, Abuja and Port Harcourt.
+
+| Column | Description |
+|---|---|
+| Invoice ID | Unique identifier for each transaction |
+| Branch | Branch code (A, B, or C) |
+| City | City where the transaction occurred |
+| Customer type | Customer membership type: Member or Normal |
+| Gender | Customer gender |
+| Product line | Category of product purchased |
+| Unit price | Price of a single unit of the product |
+| Quantity | Number of units purchased |
+| Tax 5% | Tax amount recorded for the transaction |
+| Total | Total transaction amount |
+| Date | Date of the transaction |
+| Time | Time of the transaction |
+| Payment | Payment method used |
+| COGS | Cost of goods sold |
+| Gross margin percentage | Gross margin percentage recorded in the dataset |
+| Gross income | Gross income recorded for the transaction |
+| Rating | Customer rating for the transaction |
+
+### Derived Columns
+
+| Column | Description |
+|---|---|
+| Month | Month extracted from the transaction date |
+| Day of Week | Day extracted from the transaction date |
+| Hour | Hour extracted from the transaction time |
+| Day Type | Categorizes transactions as Weekday or Weekend |## Dataset
 
 
 
-The dataset contains 1,000 supermarket transactions recorded between January and March 2019 across three branches:
 
-
-
-- Lagos
-
-- Abuja
-
-- Port Harcourt
-
-Key fields include:
-
-
-
-- Invoice ID
-
-- Branch
-
-- City
-
-- Customer type
-
-- Gender
-
-- Product line
-
-- Unit price
-
-- Quantity
-
-- Tax 5%
-
-- Total
-
-- Date
-
-- Time
-
-- Payment
-
-- COGS
-
-- Gross margin percentage
-
-- Gross income
-
-- Rating
 
 
 
@@ -192,46 +177,16 @@ Future analysis would benefit from:
 
 ## Project Structure
 
-
-
-```text
-
-Supermarket Sales Analysis/
-
-├── Supermarket\_Analysis.ipynb
-
-├── Abuja\_Branch.csv
-
-├── Lagos\_Branch.csv
-
-├── Port\_Harcourt\_Branch.csv
-
-├── Plots/
-
-  ├── Average Customer Rating by City.png
-
-  ├── Customer Rating vs Total Sales.png
-
-  ├── Gross Income by City.png
-
-  ├── Monthly Sales Trend.png
-
-   ├── Payment Methods by City.png
-
-   ├── Total Sales by City.png
-
-   ├── Total Sales by Customer Type and Gender.png
-
-   ├── Total Sales by Product Line.png
-
-   └── Transactions by Hour.png
-
-└── README.md
+- Supermarket_Analysis.ipynb — Main analysis notebook containing data preparation, exploratory analysis, visualizations, advanced analysis and findings.
+- Abuja_Branch.csv — Abuja branch transaction data.
+- Lagos_Branch.csv — Lagos branch transaction data.
+- Port_Harcourt_Branch.csv — Port Harcourt branch transaction data.
+- Plots/ — Saved visualizations generated during the analysis.
+- README.md — Project documentation, key findings, recommendations and limitations.
 
 
 
 
----
 ## Limitations
 - The dataset covers only three months, which limits the ability to identify longer-term trends or seasonal patterns.
 - There is no unique customer identifier, so individual customer retention and repeat purchases cannot be determined.
