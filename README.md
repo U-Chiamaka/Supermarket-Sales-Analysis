@@ -231,6 +231,7 @@ Supermarket Sales Analysis/
 
 
 
+---
 ## Limitations
 - The dataset covers only three months, which limits the ability to identify longer-term trends or seasonal patterns.
 - There is no unique customer identifier, so individual customer retention and repeat purchases cannot be determined.
